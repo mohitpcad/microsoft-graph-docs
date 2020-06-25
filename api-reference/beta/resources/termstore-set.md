@@ -100,12 +100,12 @@ The following is a JSON representation of the resource.
 }
 ```
 
-[microsoft.graph.termStore.term]: term.md
-[microsoft.graph.termStore.set]: termSet.md
-[microsoft.graph.termStore.group]: termGroup.md
-[microsoft.graph.termStore.relation]: termRelation.md
-[microsoft.graph.termStore.store]: termStore.md
-[microsoft.graph.termStore.localizedName]: termstoreLocalizedNameFacet.md
+[microsoft.graph.termStore.term]: termStore-term.md
+[microsoft.graph.termStore.set]: termStore-set.md
+[microsoft.graph.termStore.group]: termStore-group.md
+[microsoft.graph.termStore.relation]: termStore-relation.md
+[microsoft.graph.termStore.store]: termStore-store.md
+[microsoft.graph.termStore.localizedName]: termStore-localizedname.md
 
 <!--
 {
