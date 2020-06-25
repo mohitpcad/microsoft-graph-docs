@@ -18,8 +18,8 @@ The **microsoft.graph.termStore.localizedDescription** resource represents the l
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|String|**TODO: Add Description**|
-|languageTag|String|**TODO: Add Description**|
+|description|String|Description in localized language|
+|languageTag|String|Language tag for the label|
 
 ## Relationships
 None.
