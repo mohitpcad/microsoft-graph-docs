@@ -49,19 +49,19 @@ Inherits from [entity](../resources/entity.md).
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdDateTime|DateTimeOffset|**TODO: Add Description**|
-|descriptions|[localizedDescription](../resources/termstore-localizeddescription.md) collection|**TODO: Add Description**|
-|id|String|**TODO: Add Description** Inherited from [entity](../resources/termstore-entity.md)|
-|labels|[localizedLabel](../resources/termstore-localizedlabel.md) collection|**TODO: Add Description**|
-|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description**|
-|properties|[keyValue](../resources/termstore-intune-keyvalue.md) collection|**TODO: Add Description**|
+|createdDateTime|DateTimeOffset|Date and time of term creation. Read-only|
+|descriptions|[localizedDescription](../resources/termstore-localizeddescription.md) collection|Description about term that is dependent on the languageTag|
+|id|String|Unique identifier of term. Read-Only)|
+|labels|[localizedLabel](../resources/termstore-localizedlabel.md) collection||Label meta-data for a term|
+|lastModifiedDateTime|DateTimeOffset|Last date and time of term modification. Read-only|
+|properties|[keyValue](../resources/termstore-intune-keyvalue.md) collection|Collection of properties on the term|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|children|[term](../resources/termstore-term.md) collection|**TODO: Add Description**|
-|relations|[relation](../resources/termstore-relation.md) collection|**TODO: Add Description**|
-|set|[set](../resources/termstore-set.md)|**TODO: Add Description**|
+|children|[term](../resources/termstore-term.md) collection|Children of current term|
+|relations|[relation](../resources/termstore-relation.md) collection|To indicate which terms are related to the current term as either pinned or reused|
+|set|[set](../resources/termstore-set.md)|The set in which the term is created|
 
 ## JSON representation
 The following is a JSON representation of the resource.
