@@ -102,12 +102,12 @@ The following is a JSON representation of the resource.
 }
 ```
 
-[microsoft.graph.termStore.localizedLabel]: termStore-localizedlabel.md
-[microsoft.graph.termStore.term]: termStore-term.md
-[microsoft.graph.termStore.set]: termStore-set.md
-[microsoft.graph.termStore.relation]: termStore-relation.md
-[microsoft.graph.termStore.localizedDescription]: termStore-localizeddescription.md
-[microsoft.graph.termStore.store]: termStore-store.md
+[microsoft.graph.termStore.localizedLabel]: termstore-localizedlabel.md
+[microsoft.graph.termStore.term]: termstore-term.md
+[microsoft.graph.termStore.set]: termstore-set.md
+[microsoft.graph.termStore.relation]: termstore-relation.md
+[microsoft.graph.termStore.localizedDescription]: termstore-localizeddescription.md
+[microsoft.graph.termStore.store]: termstore-store.md
 
 <!--
 {
@@ -117,7 +117,7 @@ The following is a JSON representation of the resource.
   "section": "documentation",
   "tocPath": "Terms",
   "tocBookmarks": {
-    "Resources/termStore.term": "#"
+    "Resources/termstore-term": "#"
   },
   "suppressions": []
 }
