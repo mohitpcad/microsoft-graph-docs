@@ -39,15 +39,15 @@ Inherits from [entity](../resources/entity.md).
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|defaultLanguageTag|String|**TODO: Add Description**|
-|id|String|**TODO: Add Description** Inherited from [entity](../resources/termstore-entity.md)|
-|languageTags|String collection|**TODO: Add Description**|
+|defaultLanguageTag|String|Default language of the termStore|
+|id|String|Unique identifier of termStore. Read-Only)|
+|languageTags|String collection|List of languages of termStore.|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|groups|[group](../resources/termstore-group.md) collection|**TODO: Add Description**|
-|sets|[set](../resources/termstore-set.md) collection|**TODO: Add Description**|
+|groups|[group](../resources/termstore-group.md) collection|Collection of all groups available in the termStore|
+|sets|[set](../resources/termstore-set.md) collection|Collection of all sets available in the termStore|
 
 ## JSON representation
 The following is a JSON representation of the resource.
