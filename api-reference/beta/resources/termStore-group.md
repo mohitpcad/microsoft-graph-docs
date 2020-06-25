@@ -61,8 +61,8 @@ Here is a JSON representation of a **group** resource.
 | [Get termGroup](../api/termGroup-get.md)                           | [microsoft.graph.termStore.set] | Retrieve data of a termGroup in termStore.
 
 [identitySet]: identitySet.md
-[microsoft.graph.termStore.set]: termSet.md
-[microsoft.graph.termStore.store]: termStore.md
+[microsoft.graph.termStore.set]: termStore-set.md
+[microsoft.graph.termStore.store]: termStore-store.md
 
 <!--
 {
