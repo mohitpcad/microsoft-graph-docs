@@ -21,9 +21,9 @@ Identifies the labels associated with a given term. Inherits from [microsoft.gra
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|isDefault|Boolean|**TODO: Add Description**|
-|languageTag|String|**TODO: Add Description**|
-|name|String|**TODO: Add Description**|
+|isDefault|Boolean|Whether label is default label or not|
+|languageTag|String|Language tag for the label|
+|name|String|Name of the label|
 
 ## Relationships
 None.
