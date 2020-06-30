@@ -43,36 +43,3 @@ The following is a JSON representation of the resource.
 }
 ```
 
-## Methods
-|Method|Return type|Description
-|:---|:---|:---
-|[Get store](../api/termstore-store-get.md) | [store](../resources/termstore-store.md) | Read the properties and relationships of a [store](../resources/termstore-store.md) object.
-|[Update store](../api/termstore-store-update.md) | [store](../resources/termstore-store.md) | Update the properties of a [store](../resources/termstore-store.md) object.
-
-## Properties
-|Property|Type|Description
-|:---|:---|:---
-|defaultLanguageTag | String | Default language of the termStore
-|id|String | Unique identifier of termStore. Read-Only
-|languageTags | String collection | List of languages of termStore
-
-## Relationships
-|Relationship|Type|Description
-|:---|:---|:---
-|groups |[group](../resources/termstore-group.md) collection | Collection of all groups available in the termStore
-|sets | [set](../resources/termstore-set.md) collection | Collection of all sets available in the termStore
-
-
-<!--
-{
-  "type": "#page.annotation",
-  "description": "TermStore is the top-level entity used for managing taxonomy for a client",
-  "keywords": "termStore,facet,resource",
-  "section": "documentation",
-  "tocPath": "TermStore",
-  "tocBookmarks": {
-    "Resources/termStore.store": "#"
-  },
-  "suppressions": []
-}
--->
