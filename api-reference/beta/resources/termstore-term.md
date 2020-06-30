@@ -38,7 +38,7 @@ Inherits from [entity](../resources/entity.md).
 |id|String|Unique identifier of term. Read-Only)|
 |labels|[localizedLabel](../resources/termstore-localizedlabel.md) collection||Label meta-data for a term|
 |lastModifiedDateTime|DateTimeOffset|Last date and time of term modification. Read-only|
-|properties|[keyValue](../resources/termstore-intune-keyvalue.md) collection|Collection of properties on the term|
+|properties|[keyValue](../resources/keyvalue.md) collection|Collection of properties on the term|
 
 ## Relationships
 |Relationship|Type|Description|
