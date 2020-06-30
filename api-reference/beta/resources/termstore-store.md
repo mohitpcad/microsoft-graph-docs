@@ -36,7 +36,7 @@ The following is a JSON representation of the resource.
   "defaultLanguageTag": "String",
   "languageTags": [
     "String"
-  ]
+  ],
   /*  relationships  */
   "groups" : [{"@odata.type" : "microsoft.graph.termStore.group"}] ,
   "sets" : [{"oData.type" : "microsoft.graph.termStore.set"}]
