@@ -87,7 +87,6 @@ The following is a JSON representation of the resource.
 ```
 
 [microsoft.graph.termStore.localizedLabel]: termstore-localizedlabel.md
-[microsoft.graph.termStore.term]: termstore-term.md
 [microsoft.graph.termStore.set]: termstore-set.md
 [microsoft.graph.termStore.relation]: termstore-relation.md
 [microsoft.graph.termStore.localizedDescription]: termstore-localizeddescription.md
