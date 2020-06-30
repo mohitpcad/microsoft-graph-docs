@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-The **term** resource represents the term used in the [store](../resources/termstore-term.md).
+The **term** resource represents the term used in the [store](../resources/termstore-store.md).
 
 
 Inherits from [entity](../resources/entity.md).
@@ -86,11 +86,6 @@ The following is a JSON representation of the resource.
 }
 ```
 
-[microsoft.graph.termStore.localizedLabel]: termstore-localizedlabel.md
-[microsoft.graph.termStore.set]: termstore-set.md
-[microsoft.graph.termStore.relation]: termstore-relation.md
-[microsoft.graph.termStore.localizedDescription]: termstore-localizeddescription.md
-[microsoft.graph.termStore.store]: termstore-store.md
 
 <!--
 {
