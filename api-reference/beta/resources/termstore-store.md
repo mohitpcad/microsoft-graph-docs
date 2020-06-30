@@ -5,7 +5,7 @@ author: mpathak123
 ms.author: mopathak
 localization_priority: Normal
 ms.prod: "sharepoint-taxonomy"
-doc_type: resourcePageType
+doc_type: "resourcePageType"
 ---
 
 # store resource type
