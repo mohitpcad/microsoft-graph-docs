@@ -75,7 +75,7 @@ The following is a JSON representation of the resource.
   ],
   "properties": [
     {
-      "@odata.type": "microsoft.graph.termStore.keyValue"
+      "@odata.type": "microsoft.graph.keyValue"
     }
   ],
   
