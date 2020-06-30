@@ -48,6 +48,7 @@ The following is a JSON representation of the resource.
 |:---|:---|:---
 |[Get store](../api/termstore-store-get.md) | [store](../resources/termstore-store.md) | Read the properties and relationships of a [store](../resources/termstore-store.md) object.
 |[Update store](../api/termstore-store-update.md) | [store](../resources/termstore-store.md) | Update the properties of a [store](../resources/termstore-store.md) object.
+|[List groups](../api/termstore-store-list-groups.md)|[group](../resources/termstore-group.md) collection|Get the groups from the groups navigation property.|
 
 ## Properties
 |Property|Type|Description
