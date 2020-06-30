@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-The **term** resource represents the term used in the [microsoft.graph.termStore.store].
+The **term** resource represents the term used in the [store](../resources/termstore-term.md).
 
 
 Inherits from [entity](../resources/entity.md).
