@@ -27,10 +27,6 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /termStore/groups/{groupId}/sets/{setId}/relations
-GET /termStore/groups/{groupId}/sets/{setId}/terms/{termId}/relations
-GET /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/relations
-GET /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/terms/{termId}/relations
 GET /termStore/sets/{setId}/relations
 GET /termStore/sets/{setId}/terms/{termId}/relations
 GET /termStores/{termStoresId}/sets/{setId}/relations
