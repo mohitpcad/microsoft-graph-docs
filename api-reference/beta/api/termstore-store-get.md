@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 Read the properties and relationships of a [store](../resources/termstore-store.md) object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
@@ -73,9 +73,6 @@ Content-Type: application/json
   }
 }
 ```
-
-[microsoft.graph.termStore.store]: ../resources/termstore-store.md
-[microsoft.graph.termStore.group]: ../resources/termstore-group.md
 
 <!--
 {
