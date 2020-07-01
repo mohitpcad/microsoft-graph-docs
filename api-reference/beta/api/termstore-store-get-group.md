@@ -11,7 +11,7 @@ doc_type: apiPageType
 # Get groups
 Namespace: microsoft.graph.termStore
 
-Read the properties and relationships of a [group](../resources/group.md) object.
+Read the properties and relationships of a [group](../resources/termstore-group.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 
 ``` http
-GET /termStore/groups
+GET /termStore/groups/{groupsId}
 ```
 
 ## Request headers
