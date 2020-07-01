@@ -8,7 +8,7 @@ ms.prod: "sharepoint-taxonomy"
 doc_type: apiPageType
 ---
 
-# Get groups
+# Get group
 Namespace: microsoft.graph.termStore
 
 Read the properties and relationships of a [group](../resources/termstore-group.md) object.
