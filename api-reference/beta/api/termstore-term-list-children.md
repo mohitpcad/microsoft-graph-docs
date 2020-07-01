@@ -27,14 +27,8 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /termStore/groups/{groupId}/sets/{setId}/children
-GET /termStore/groups/{groupId}/sets/{setId}/terms/{termId}/children
-GET /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/children
-GET /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/terms/{termId}/children
 GET /termStore/sets/{setId}/children
 GET /termStore/sets/{setId}/terms/{termId}/children
-GET /termStores/{termStoresId}/sets/{setId}/children
-GET /termStores/{termStoresId}/sets/{setId}/terms/{termId}/children
 ```
 
 ## Optional query parameters
@@ -58,8 +52,8 @@ If successful, this method returns a `200 OK` response code and a collection of 
 <!-- {
   "blockType": "request",
   "name": "get_term"
-}
--->
+}-->
+
 ``` http
 GET https://graph.microsoft.com/beta/termStore/sets/{setId}/children
 ```
@@ -70,16 +64,16 @@ GET https://graph.microsoft.com/beta/termStore/sets/{setId}/children
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "collection(microsoft.graph.termstore.term)"
-}
--->
+  "@odata.type": "collection(microsoft.graph.termStore.term)"
+}-->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
   "value": [
-    {
-      "@odata.type": "#microsoft.graph.termStore.term",
+    {      
       "id": "81be9856-9856-81be-5698-be815698be81",
       "labels" : [
         {
