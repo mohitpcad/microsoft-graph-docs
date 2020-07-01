@@ -82,7 +82,7 @@ Content-length: 366
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.termstore.term"
+  "@odata.type": "microsoft.graph.termStore.term"
 }-->
 
 ``` http
