@@ -26,6 +26,7 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 PATCH /termStore/sets/{setId}
 ```
@@ -59,8 +60,8 @@ If successful, this method returns a `200 OK` response code and an updated [set]
 <!-- {
   "blockType": "request",
   "name": "update_set"
-}
--->
+} -->
+
 ``` http
 PATCH https://graph.microsoft.com/beta/termStore/sets/{setId}
 Content-Type: application/json
@@ -78,13 +79,13 @@ Content-length: 288
 <!-- {
   "blockType": "response",
   "truncated": true
-}
--->
+}-->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
-  "@odata.type": "#microsoft.graph.termStore.set",
   "id": "3607e9f9-e9f9-3607-f9e9-0736f9e90736",
   "description": "New description",    
   "localizedNames" : [
