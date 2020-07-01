@@ -56,9 +56,9 @@ Here is a JSON representation of a **group** resource.
 
 | Method                                                   | Return type       |    Description
 |:---------------------------------------------------------|:------------------|:---------------------
-| [Create termGroup](../api/termstore-store-post-group.md)                     | [microsoft.graph.termStore.set] | Create a termGroup in termStore.
+| [Create termGroup](../api/termstore-store-post-group.md)                     | [microsoft.graph.termStore.group] | Create a termGroup in termStore.
 | [Delete termGroup](../api/termstore-store-delete-group.md)                     | None |  Delete termGroup.
-| [Get termGroup](../api/termstore-store-get-group.md)                           | [microsoft.graph.termStore.set] | Retrieve data of a termGroup in termStore.
+| [Get termGroup](../api/termstore-store-get-group.md)                           | [microsoft.graph.termStore.group] | Retrieve data of a termGroup in termStore.
 
 [identitySet]: identitySet.md
 [microsoft.graph.termStore.set]: termstore-set.md
