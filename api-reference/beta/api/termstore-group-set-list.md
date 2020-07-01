@@ -53,8 +53,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 <!-- {
   "blockType": "request",
   "name": "get_set"
-}
--->
+}-->
 
 ``` http
 GET https://graph.microsoft.com/beta/termStore/groups/{groupsId}/sets
@@ -69,12 +68,12 @@ GET https://graph.microsoft.com/beta/termStore/groups/{groupsId}/sets
   "blockType": "response",
   "truncated": true,
   "@odata.type": "collection(microsoft.graph.termstore.set)"
-}
--->
+} -->
 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
   "value": [
     {
