@@ -28,15 +28,15 @@ Inherits from [entity](../resources/entity.md).
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String|**TODO: Add Description** Inherited from [entity](../resources/termstore-entity.md)|
-|relationship|relationType|**TODO: Add Description**. Possible values are: `pin`, `reuse`.|
+|id|String|Id of relation|
+|relationship|relationType|Type of relation. Possible values are: `pin`, `reuse`.|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|fromTerm|[term](../resources/termstore-term.md)|**TODO: Add Description**|
-|set|[set](../resources/termstore-set.md)|**TODO: Add Description**|
-|toTerm|[term](../resources/termstore-term.md)|**TODO: Add Description**|
+|fromTerm|[term](../resources/termstore-term.md)|The from term of the relation. A null value would indicate the relation is directly with the termSet. |
+|set|[set](../resources/termstore-set.md)|The set in which the relation relevant. A null value would mean relation exists between the two terms in every set.|
+|toTerm|[term](../resources/termstore-term.md)|The to term of the relation. Cannot be a null value.|
 
 ## JSON representation
 The following is a JSON representation of the resource.
@@ -61,10 +61,10 @@ The following is a JSON representation of the resource.
 }
 ```
 
-[microsoft.graph.termStore.term]: term.md
-[microsoft.graph.termStore.set]: termSet.md
-[microsoft.graph.termStore.relations]: termRelation.md
-[microsoft.graph.termStore.relation]: termRelation.md
+[microsoft.graph.termStore.term]: termstore-term.md
+[microsoft.graph.termStore.set]: termstore-set.md
+[microsoft.graph.termStore.relations]: termstore-relation.md
+[microsoft.graph.termStore.relation]: termstore-relation.md
 
 <!--
 {
