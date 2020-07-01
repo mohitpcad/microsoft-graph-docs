@@ -73,7 +73,6 @@ Content-Type: application/json
 
 {
   "value": {
-    "@odata.type": "#microsoft.graph.termStore.set",
     "createdDateTime": "2019-06-21T20:01:37Z",  
     "description": "Starting term Set",
     "id": "8ed8c9ea-7052-4c1d-a4d7-b9c10bffea6f",
