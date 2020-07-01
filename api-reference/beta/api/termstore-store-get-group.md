@@ -57,13 +57,16 @@ GET https://graph.microsoft.com/beta/termStore/groups
 
 
 ### Response
+
 **Note:** The response object shown here might be shortened for readability.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.termStore.group"
 }
 -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
