@@ -26,9 +26,9 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 GET /termStore/groups
-GET /termStores/{termStoresId}/groups
 ```
 
 ## Optional query parameters
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and a collection of [group](../resources/group.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and a collection of [group](../resources/termstore-group.md) objects in the response body.
 
 ## Examples
 
@@ -64,16 +64,15 @@ GET https://graph.microsoft.com/beta/termStore/groups
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "collection(microsoft.graph.termstore.group)"
-}
--->
+  "@odata.type": "collection(microsoft.graph.termStore.group)"
+} -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "value": [
     {
-      "@odata.type": "#microsoft.graph.termStore.group",
       "id": "85825593-5593-8582-9355-828593558285",
       "createdDateTime": "2019-06-21T20:01:37Z",
       "description": "My term group",
