@@ -66,7 +66,7 @@ GET https://graph.microsoft.com/beta/termStore/groups/{groupsId}/sets
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": collection(microsoft.graph.termStore.set)
+  "@odata.type": "collection(microsoft.graph.termStore.set)"
 } -->
 
 ``` http
