@@ -25,11 +25,11 @@ One of the following permissions is required to call this API. To learn more, in
 
 <!-- {
   "blockType": "ignored"
-}
--->
+} -->
+
 ``` http
 GET /termStore/groups/{groupId}/sets/{setId}/terms/{termId}
-GET /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/terms/{termId}
+GET /termStore/sets/{setId}/terms/{termId}
 ```
 
 ## Optional query parameters
@@ -53,8 +53,8 @@ If successful, this method returns a `200 OK` response code and a [term](../reso
 <!-- {
   "blockType": "request",
   "name": "get_term"
-}
--->
+} -->
+
 ``` http
 GET https://graph.microsoft.com/beta/termStore/groups/{groupId}/sets/{setId}/terms/{termId}
 ```
@@ -66,25 +66,23 @@ GET https://graph.microsoft.com/beta/termStore/groups/{groupId}/sets/{setId}/ter
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.termStore.term"
-}
--->
+} -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
-  "value": {
-    "@odata.type": "#microsoft.graph.termStore.term",
-    "id": "81be9856-9856-81be-5698-be815698be81",
-    "createdDateTime": "2019-06-21T20:01:37Z",
-    "labels" : [
-      {
-          "name" : "Copy of myTerm",
-          "languageTag" : "en-US",
-          "isDefault" : true
-      }
+  "id": "81be9856-9856-81be-5698-be815698be81",
+  "createdDateTime": "2019-06-21T20:01:37Z",
+  "labels" : [
+    {
+        "name" : "Copy of myTerm",
+        "languageTag" : "en-US",
+        "isDefault" : true
+    }
   ],
   "lastModifiedDateTime": "2019-06-21T20:01:37Z"
-  }
 }
 ```
 
