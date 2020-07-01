@@ -26,6 +26,7 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 GET /termStore/groups/{groupsId}/sets
 GET /termStores/{termStoresId}/groups/{groupsId}/sets
@@ -54,19 +55,23 @@ If successful, this method returns a `200 OK` response code and a collection of 
   "name": "get_set"
 }
 -->
+
 ``` http
 GET https://graph.microsoft.com/beta/termStore/groups/{groupsId}/sets
 ```
 
 
 ### Response
+
 **Note:** The response object shown here might be shortened for readability.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
   "@odata.type": "collection(microsoft.graph.termstore.set)"
 }
 -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
