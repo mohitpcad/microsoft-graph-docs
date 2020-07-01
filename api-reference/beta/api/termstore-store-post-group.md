@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 Create a new groups object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
@@ -95,10 +95,6 @@ Content-Type: application/json
 
 **Note:** Response objects are truncated for clarity.
 All default properties will be returned from the actual call.
-
-[microsoft.graph.termStore.term]: ../resources/term.md
-[microsoft.graph.termStore.group]: ../resources/termGroup.md
-[microsoft.graph.termStore.store]: ../resources/termStore.md
 
 <!--
 {
