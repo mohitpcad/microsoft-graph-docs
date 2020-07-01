@@ -34,9 +34,9 @@ Inherits from [entity](../resources/entity.md).
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|fromTerm|[term](../resources/termstore-term.md)|The from term of the relation. A null value would indicate the relation is directly with the termSet. |
-|set|[set](../resources/termstore-set.md)|The set in which the relation relevant. A null value would mean relation exists between the two terms in every set.|
-|toTerm|[term](../resources/termstore-term.md)|The to term of the relation. Cannot be a null value.|
+|fromTerm|[termstore.term](../resources/termstore-term.md)|The from term of the relation. A null value would indicate the relation is directly with the termSet. |
+|set|[termstore.set](../resources/termstore-set.md)|The set in which the relation relevant. A null value would mean relation exists between the two terms in every set.|
+|toTerm|[termstore.term](../resources/termstore-term.md)|The to term of the relation. Cannot be a null value.|
 
 ## JSON representation
 The following is a JSON representation of the resource.
