@@ -57,11 +57,7 @@ If successful, this method returns a `201 Created` response code and a [relation
 ## Examples
 
 ### Request
-<!-- {
-  "blockType": "request",
-  "name": "create_relation_from_"
-}
--->
+
 ``` http
 POST https://graph.microsoft.com/beta/termStore/sets/{setId}/terms/{termsId}/relations
 Content-Type: application/json
