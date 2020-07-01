@@ -24,11 +24,10 @@ One of the following permissions is required to call this API. To learn more, in
 
 <!-- {
   "blockType": "ignored"
-}
--->
+}-->
+
 ``` http
 PATCH /termStore/sets/{setId}/terms/{termId}
-PATCH /termStores/{termStoresId}/sets/{setId}/terms/{termId}
 ```
 
 ## Request headers
@@ -60,15 +59,14 @@ If successful, this method returns a `200 OK` response code and an updated [term
 <!-- {
   "blockType": "request",
   "name": "update_term"
-}
--->
+} -->
+
 ``` http
 PATCH https://graph.microsoft.com/beta/termStore/sets/{setId}/terms/{termId}
 Content-Type: application/json
 Content-length: 366
 
 {
-  "@odata.type": "#microsoft.graph.termStore.term",
   "labels" : [
       {
           "name" : "changedLabel",
@@ -85,13 +83,13 @@ Content-length: 366
 <!-- {
   "blockType": "response",
   "truncated": true
-}
--->
+}-->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
-  "@odata.type": "#microsoft.graph.termStore.term",
   "id": "81be9856-9856-81be-5698-be815698be81",
   "labels" : [
       {
