@@ -56,11 +56,6 @@ If successful, this method returns a `201 Created` response code and a [set](../
 ## Examples
 
 ### Request
-<!-- {
-  "blockType": "request",
-  "name": "create_set_from_"
-}
--->
 ``` http
 POST https://graph.microsoft.com/beta/termStore/sets
 Content-Type: application/json
