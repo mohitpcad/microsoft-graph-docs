@@ -4,6 +4,7 @@ description: "Get the terms from the children navigation property."
 author: mpathak123
 ms.author: mopathak
 ms.prod: "sharepoint-taxonomy"
+localization_priority: Normal
 doc_type: apiPageType
 ---
 
@@ -13,7 +14,7 @@ Namespace: microsoft.graph.termStore
 Get the terms from the children navigation property.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
@@ -49,7 +50,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns a `200 OK` response code and a collection of [term](../resources/term.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and a collection of [term](../resources/termstore-term.md) objects in the response body.
 
 ## Examples
 
