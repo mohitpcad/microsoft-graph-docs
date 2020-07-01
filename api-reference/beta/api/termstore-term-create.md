@@ -24,13 +24,11 @@ One of the following permissions is required to call this API. To learn more, in
 
 <!-- {
   "blockType": "ignored"
-}
--->
+} -->
+
 ``` http
 POST /termStore/sets/{setId}/children
 POST /termStore/sets/{setId}/terms/{termId}/children
-POST /termStores/{termStoresId}/sets/{setId}/children
-POST /termStores/{termStoresId}/sets/{setId}/terms/{termId}/children
 ```
 
 ## Request headers
@@ -60,15 +58,14 @@ If successful, this method returns a `201 Created` response code and a [term](..
 <!-- {
   "blockType": "request",
   "name": "create_term_from_"
-}
--->
+} -->
+
 ``` http
 POST https://graph.microsoft.com/beta/termStore/sets/{setId}/terms
 Content-Type: application/json
 Content-length: 366
 
 {
-  "@odata.type": "#microsoft.graph.termStore.term",
   "labels": [
     {
       "languageTag" : "en-US",
@@ -86,15 +83,15 @@ Content-length: 366
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.termstore.term"
-}
--->
+}-->
+
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
+
 {
-  "@odata.type": "#microsoft.graph.termStore.term",
   "createdDateTime": "2019-06-21T20:01:37Z",
-  "id": "1FFD3F87-9464-488A-A0EC-8FB90911182C",
+  "id": "8ed8c9ea-7052-4c1d-a4d7-b9c10bffea6f",
   "labels" : [
       {
           "name" : "Car",
