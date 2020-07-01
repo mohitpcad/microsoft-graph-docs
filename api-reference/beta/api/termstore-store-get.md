@@ -26,9 +26,9 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 GET /termStore
-GET /termStores/{termStoresId}
 ```
 
 ## Request headers
@@ -46,8 +46,8 @@ If successful, this method returns a `200 OK` response code and a [store](../res
 <!-- {
   "blockType": "request",
   "name": "get_store"
-}
--->
+}-->
+
 ``` http
 GET https://graph.microsoft.com/beta/termStore
 ```
@@ -55,22 +55,21 @@ GET https://graph.microsoft.com/beta/termStore
 
 ### Response
 **Note:** The response object shown here might be shortened for readability.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.termStore.store"
-}
--->
+} -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-{
-  "value": {
-    "@odata.type": "#microsoft.graph.termStore.store",
-    "id": "dad13b4b-3b4b-dad1-4b3b-d1da4b3bd1da",
-    "defaultLanguageTag" : "en-US",
-    "languageTags" : ["en-US", "de-DE", "fr-FR"]
-  }
+
+{  
+  "id": "dad13b4b-3b4b-dad1-4b3b-d1da4b3bd1da",
+  "defaultLanguageTag" : "en-US",
+  "languageTags" : ["en-US", "de-DE", "fr-FR"]
 }
 ```
 
