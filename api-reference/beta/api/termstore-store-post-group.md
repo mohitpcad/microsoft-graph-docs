@@ -26,9 +26,9 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 POST /termStore/groups
-POST /termStores/{termStoresId}/groups
 ```
 
 ## Request headers
@@ -58,15 +58,14 @@ If successful, this method returns a `201 Created` response code and a [group](.
 <!-- {
   "blockType": "request",
   "displayName": "myGroup"
-}
--->
+}-->
+
 ``` http
 POST https://graph.microsoft.com/beta/termStore/groups
 Content-Type: application/json
 Content-length: 135
 
 {
-  "@odata.type": "#microsoft.graph.termStore.group",
   "displayName" : "myGroup"
 }
 ```
@@ -77,14 +76,14 @@ Content-length: 135
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.termstore.group"
-}
--->
+  "@odata.type": "microsoft.graph.termStore.group"
+}-->
+
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
+
 {
-  "@odata.type": "#microsoft.graph.termStore.group",
   "id": "85825593-5593-8582-9355-828593558285",
   "createdDateTime": "2019-06-21T20:01:37Z",
   "description": "My term group",
