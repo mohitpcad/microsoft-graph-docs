@@ -26,6 +26,7 @@ One of the following permissions is required to call this API. To learn more, in
   "blockType": "ignored"
 }
 -->
+
 ``` http
 GET /termStore/groups
 GET /termStores/{termStoresId}/groups
@@ -51,6 +52,7 @@ If successful, this method returns a `200 OK` response code and a [group](../res
   "name": "get_group"
 }
 -->
+
 ``` http
 GET https://graph.microsoft.com/beta/termStore/groups
 ```
