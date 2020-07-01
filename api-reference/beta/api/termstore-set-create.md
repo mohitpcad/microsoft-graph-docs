@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 Create a new [set](../resources/termstore-set.md) object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
@@ -73,7 +73,7 @@ Content-length: 288
    },
    "localizedNames" : [
       {
-        "languageTag" : "en-US"
+        "languageTag" : "en-US",
         "name" : "Department"
       }
   ]
