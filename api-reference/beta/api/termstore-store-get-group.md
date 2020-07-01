@@ -66,21 +66,18 @@ GET https://graph.microsoft.com/beta/termStore/groups
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.termStore.group"
-}
--->
+} -->
 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
-  "value": {
-    "@odata.type": "#microsoft.graph.termStore.group",
-    "createdDateTime": "2019-06-21T20:01:37Z",
-    "description": "My term group",
-    "scope" : "global",
-    "id": "1FFD3F87-9464-488A-A0EC-8FB90911182C",
-    "displayName": "myGroup"  
-  }
+  "createdDateTime": "2019-06-21T20:01:37Z",
+  "description": "My term group",
+  "scope" : "global",
+  "id": "1FFD3F87-9464-488A-A0EC-8FB90911182C",
+  "displayName": "myGroup"  
 }
 ```
 
