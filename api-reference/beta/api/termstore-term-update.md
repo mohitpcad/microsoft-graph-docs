@@ -14,7 +14,7 @@ Namespace: microsoft.graph.termStore
 Update the properties of a [term](../resources/termstore-term.md) object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
@@ -46,7 +46,7 @@ The following table shows the properties that can be updated for a [term](../res
 |:---|:---|:---|
 |labels|[localizedLabel](../resources/termstore-localizedlabel.md) collection|labels of a term|
 |descriptions|[localizedDescription](../resources/termstore-localizeddescription.md) collection|description about the term|
-|properties|[keyValue](../resources/termstore-intune-keyvalue.md) collection|properties associated with the term|
+|properties|[keyValue](../resources/keyvalue.md) collection|properties associated with the term|
 
 
 
