@@ -51,7 +51,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ### Request
 <!-- {
   "blockType": "request",
-  "name": "get-set"
+  "name": "get_set"
 }-->
 
 ``` http
@@ -66,7 +66,7 @@ GET https://graph.microsoft.com/beta/termStore/groups/{groupsId}/sets
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "collection(microsoft.graph.termstore.set)"
+  "@odata.type": collection(microsoft.graph.termStore.set)
 } -->
 
 ``` http
@@ -89,7 +89,7 @@ Content-Type: application/json
 }
 ```
 
-[microsoft.graph.termstore.set]: ../resources/termstore-set.md
+[microsoft.graph.termStore.set]: ../resources/termstore-set.md
 
 <!--
 {
