@@ -68,8 +68,7 @@ Content-Type: application/json
 Content-length: 288
 
 {
-  "@odata.type": "#microsoft.graph.termStore.set",  
-  "description": "New description",
+  "description": "New description"
 }
 ```
 
