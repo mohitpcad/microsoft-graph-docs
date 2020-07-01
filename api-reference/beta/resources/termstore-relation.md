@@ -22,7 +22,7 @@ Inherits from [entity](../resources/entity.md).
 |Method|Return type|Description|
 |:---|:---|:---|
 |[List relations](../api/termstore-term-list-relations.md)|[relation](../resources/termstore-relation.md) collection|Get the relations from the relations navigation property.|
-|[Create relations](../api/termstore-relation-create.md.md)|[relation](../resources/termstore-relation.md)|Create a new relations object.|
+|[Create relations](../api/termstore-relation-create.md)|[relation](../resources/termstore-relation.md)|Create a new relations object.|
 
 
 ## Properties
