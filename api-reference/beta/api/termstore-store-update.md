@@ -24,11 +24,10 @@ One of the following permissions is required to call this API. To learn more, in
 
 <!-- {
   "blockType": "ignored"
-}
--->
+}-->
+
 ``` http
 PATCH /termStore
-PATCH /termStores/{termStoresId}
 ```
 
 ## Request headers
@@ -59,16 +58,15 @@ If successful, this method returns a `200 OK` response code and an updated [stor
 <!-- {
   "blockType": "request",
   "name": "update_store"
-}
--->
+} -->
+
 ``` http
 PATCH https://graph.microsoft.com/beta/termStore
 Content-Type: application/json
 Content-length: 133
 
 {
-  "@odata.type": "#microsoft.graph.termStore.store",
-  "defaultLanguageTag": "en-US",  
+  "defaultLanguageTag": "en-US"
 }
 ```
 
@@ -77,14 +75,15 @@ Content-length: 133
 **Note:** The response object shown here might be shortened for readability.
 <!-- {
   "blockType": "response",
-  "truncated": true
-}
--->
+  "truncated": true,
+  "@odata.type": "microsoft.graph.termStore.store"
+} -->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
-  "@odata.type": "#microsoft.graph.termStore.store",
   "id": "dad13b4b-3b4b-dad1-4b3b-d1da4b3bd1da",
   "defaultLanguageTag": "en-US",
   "languageTags": [
