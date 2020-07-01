@@ -77,7 +77,6 @@ Content-Type: application/json
 {
   "value": [
     {
-      "@odata.type": "#microsoft.graph.termStore.set",
       "id": "3607e9f9-e9f9-3607-f9e9-0736f9e90736",
       "description": "Starting term Set",    
       "localizedNames" : [
