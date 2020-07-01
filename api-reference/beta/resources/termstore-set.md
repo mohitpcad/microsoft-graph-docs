@@ -27,7 +27,7 @@ Inherits from [entity](../resources/entity.md).
 |[Update set](../api/termstore-set-update.md)|[set](../resources/termstore-set.md)|Update the properties of a [set](../resources/termstore-set.md) object.|
 |[Delete set](../api/termstore-set-delete.md)|None|Deletes a [set](../resources/termstore-set.md) object.|
 |[Create term](../api/termstore-term-create.md)|[term](../resources/termstore-term.md)|Create a new term object.|
-|[Get term](../api/termstore-term-get.md)|[term](../resources/termstore-term.md)|Read the properties and relationships of a [term](../resources/term.md) object.|
+|[Get term](../api/termstore-term-get.md)|[term](../resources/termstore-term.md)|Read the properties and relationships of a [term](../resources/termstore-term.md) object.|
 
 
 ## Properties
@@ -35,9 +35,9 @@ Inherits from [entity](../resources/entity.md).
 |:---|:---|:---|
 |createdDateTime|DateTimeOffset|Date and time of set creation. Read-only.|
 |description|String|Description giving details on the term usage|
-|id|String|Unique identifier of set. Read-only Inherited from [entity](../resources/termstore-entity.md)|
+|id|String|Unique identifier of set. Read-only.|
 |localizedNames|[localizedName](../resources/termstore-localizedname.md) collection|Name of set for each languageTag|
-|properties|[keyValue](../resources/termstore-intune-keyvalue.md) collection|Custom properties for set|
+|properties|[keyValue](../resources/keyvalue.md) collection|Custom properties for set|
 
 ## Relationships
 |Relationship|Type|Description|
