@@ -18,23 +18,9 @@ Namespace: microsoft.graph.termStore
 
 The **group** resource represents the group used in the [microsoft.graph.termStore.store].
 
-## JSON representation
+Inherits from [entity](../resources/entity.md).
 
-Here is a JSON representation of a **group** resource.
 
-```json
-{
-  "id": "string",
-  "createdDateTime": "string (timestamp)",
-  "description": "string",
-  "scope" : "microsoft.graph.termStore.groupScope",
-  "displayName": "string",  
-
-  /*  relationships  */
-  "sets" : [{"@odata.type" : "microsoft.graph.termStore.set"}]
-
-}
-```
 
 ## Properties
 
@@ -59,6 +45,33 @@ Here is a JSON representation of a **group** resource.
 | [Create termGroup](../api/termstore-store-post-group.md)                     | [microsoft.graph.termStore.group] | Create a termGroup in termStore.
 | [Delete termGroup](../api/termstore-store-delete-group.md)                     | None |  Delete termGroup.
 | [Get termGroup](../api/termstore-store-get-group.md)                           | [microsoft.graph.termStore.group] | Retrieve data of a termGroup in termStore.
+
+
+## JSON representation
+
+Here is a JSON representation of a **group** resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.termStore.group",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+```json
+{
+  "@odata.type": "#microsoft.graph.termStore.group",
+  "id": "string",
+  "createdDateTime": "string (timestamp)",
+  "description": "string",
+  "scope" : "microsoft.graph.termStore.groupScope",
+  "displayName": "string",  
+
+  /*  relationships  */
+  "sets" : [{"@odata.type" : "microsoft.graph.termStore.set"}]
+
+}
+```
 
 [identitySet]: identitySet.md
 [microsoft.graph.termStore.set]: termstore-set.md
