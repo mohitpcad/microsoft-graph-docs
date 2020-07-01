@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 GET /termStore/sets/{setId}/relations
 GET /termStore/sets/{setId}/terms/{termId}/relations
-GET /termStores/{termStoresId}/sets/{setId}/relations
-GET /termStores/{termStoresId}/sets/{setId}/terms/{termId}/relations
 ```
 
 ## Optional query parameters
@@ -54,10 +52,10 @@ If successful, this method returns a `200 OK` response code and a collection of 
 <!-- {
   "blockType": "request",
   "name": "get_relation"
-}
--->
+}-->
+
 ``` http
-GET https://graph.microsoft.com/beta/termStore/groups/{groupId}/sets/{setId}/relations
+GET https://graph.microsoft.com/beta/termStore/sets/{setId}/relations
 ```
 
 
@@ -66,16 +64,16 @@ GET https://graph.microsoft.com/beta/termStore/groups/{groupId}/sets/{setId}/rel
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "collection(microsoft.graph.termstore.relation)"
-}
--->
+  "@odata.type": "collection(microsoft.graph.termStore.relation)"
+}-->
+
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
+
 {
   "value": [
     {
-      "@odata.type": "#microsoft.graph.termStore.relation",
       "id": "052c749c-749c-052c-9c74-2c059c742c05",
       "relationship": "pin"
     }
