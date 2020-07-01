@@ -68,7 +68,7 @@ Content-Type: application/json
 Content-length: 288
 
 {
-  "description": "New description"
+  "description": "mySet"
 }
 ```
 
@@ -86,7 +86,7 @@ Content-Type: application/json
 
 {
   "id": "3607e9f9-e9f9-3607-f9e9-0736f9e90736",
-  "description": "New description",    
+  "description": "mySet",    
   "localizedNames" : [
     {
       "languageTag" : "en-US",
