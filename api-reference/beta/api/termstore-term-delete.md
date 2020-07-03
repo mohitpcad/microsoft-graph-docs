@@ -30,10 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-DELETE /termStore/groups/{groupId}/sets/{setId}/terms/{termId}
-DELETE /termStores/{termStoresId}/groups/{groupId}/sets/{setId}/terms/{termId}
 DELETE /termStore/sets/{setId}/terms/{termId}
-DELETE /termStores/{termStoresId}/sets/{setId}/terms/{termId}
 ```
 
 ## Request headers
