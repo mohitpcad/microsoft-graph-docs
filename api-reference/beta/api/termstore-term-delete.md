@@ -18,7 +18,10 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated            | TermStore.ReadWrite.All |
+|Delegated (work or school account) |Sites.Read.All and TermStore.ReadWrite.All |
+|Delegated (personal Microsoft account) | Not supported.    |
+|Application | Not supported |
+
 
 ## HTTP request
 
