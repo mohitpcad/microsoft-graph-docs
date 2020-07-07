@@ -15,7 +15,7 @@ For a summary of the value of these API changes, as well as recent tools, compon
 ### Taxonomy TermStore
 | **Change type** | **Version**   | **Description**                          |
 | :-------------- | :------------ | :--------------------------------------- |
-| Addition | beta | Added different resources and APIs to access [the termStore.store](/graph/api/resources/termstore-store.md) |
+| Addition | beta | Added different resources and APIs to access the [termStore.store](../api-reference/beta/resources/termstore-store.md) |
 
 ## June 2020
 
